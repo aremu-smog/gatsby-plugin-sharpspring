@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-plugin-sharpspring",
+  "version": "1.0.0",
+  "description": "A plugin for integrating SharpSpring",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d .",
+    "watch": "babel -w src -d ."
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "marketing-automation",
+    "marketing",
+    "automation",
+    "analytics",
+    "chatbots"
+  ],
+  "author": "Aremu Smog <aremuoluwagbamila@gmail.com>",
+  "license": "0BSD",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "babel-preset-gatsby-package": "^1.1.0",
+    "common-tags": "^1.8.0",
+    "cross-env": "^7.0.3",
+    "gatsby-plugin-utils": "^1.1.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.10"
+  }
+}
