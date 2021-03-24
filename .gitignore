@@ -1,5 +1,5 @@
 #Files
-*.js
+/*.js
 !index.js
 
 # Logs
