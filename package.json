@@ -4,7 +4,7 @@
   "description": "A plugin for integrating SharpSpring",
   "main": "index.js",
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "cross-env NODE_ENV=production npm run build",
     "build": "babel src -d .",
     "watch": "babel -w src -d ."
   },
