@@ -14,7 +14,7 @@ npm install gatsby-plugin-sharpspring
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-plugin-google-tagmanager`,
+    resolve: `gatsby-plugin-sharpspring`,
     options: {
       trackingId: `YOUR_SITE_TRACKING_ID`,
       domainId: `YOUR_SITE_DOMAIN_ID`
