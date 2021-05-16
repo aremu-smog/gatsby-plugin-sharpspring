@@ -19,7 +19,7 @@ window._pa = window._pa || {};
 (function () {
   var ss = document.createElement("script");
   ss.type = "text/javascript";
-  ss.async = true;
+  ss.defer = true;
   ss.src =
     ("https:" == document.location.protocol ? "https://" : "http://") +
     "${domainId}.marketingautomation.services/client/ss.js?ver=2.4.0";
